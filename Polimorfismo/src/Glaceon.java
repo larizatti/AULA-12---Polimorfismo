@@ -1,21 +1,22 @@
-public class Jolteon extends Eevee {
+public class Glaceon extends Eevee {
 
-    public Jolteon (String nome, String tipo, double altura, int hP, double peso) {
+    public Glaceon (String nome, String tipo, double altura, int hP, double peso) {
         super (nome, tipo, altura, hP, peso);
-    }
+}
+    
 
 @Override //serve para sobrepor os métodos que estavam presentes no Eevee
 
 public String ataque() {
-        return "Trovoada - Thunder-Shock";
+        return "Ice Attack";
     }
 @Override
     public String defesa(){
-        return "Carda - Wild Charge";
+        return "Ice Defense";
     }
 @Override
     public String especial(){
-        return "Raio - Thunder";
+        return "Special Dark";
 }
 
 }
